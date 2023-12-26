@@ -28,7 +28,7 @@
 
 ## 项目经历
 
-### 国家重点研发计划高性能计算专项: 基于异构超算的多元任务运行时系统<span class="role">:&nbsp;项目开发负责人</span><span class="right">2023.10 - 今</span>
+### 基于异构超算的多元任务运行时系统(国家重点研发计划高性能计算专项)<span class="role">:&nbsp;项目开发负责人</span><span class="right">2023.10 - 今</span>
 
 - **项目技术栈**: C/C++, Python, CMake, 超算体系结构
 - **承担工作**: 前期调研和原型设计, 现有软件栈向新一代超算适配
@@ -36,7 +36,7 @@
 
 ---
 
-### 基于Kubernetes的容器化AI云平台DeepAI<span class="role">:&nbsp;项目开发成员, 后端开发</span><span class="right">2021.11 - 今</span>
+### 基于Kubernetes的容器化AI云平台-DeepAI<span class="role">:&nbsp;项目开发成员, 后端开发</span><span class="right">2021.11 - 今</span>
 
 - **项目技术栈**: Golang, Python, Pytorch, Kubernetes, Docker, MySQL
 - **承担工作**: 基于Kubeflow的分布式训练环境实现; 基于Kubernetes和近似算法优化计算资源调度策略; 基于差分隐私机制和在线算法优化隐私数据分配策略
