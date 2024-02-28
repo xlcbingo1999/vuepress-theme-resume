@@ -21,26 +21,28 @@
 
 ## 专业技能
 
-- **编程语言**: 近期常用C/C++, Python; 有过Golang, Swift/Objective-C, Javascript等的相关开发经验
+- **编程语言**: 近期常用Golang, C/C++, Python; 有过Swift/Objective-C等的相关开发经验
 - **开发工具**: 熟悉Git, Kubernetes, Docker, LXD, LaTex, Pytorch; 熟悉Linux常见发行版的使用和维护
 - **专业技能比赛**: 2021年数学建模美赛 **一等奖Meritorious(约前10\%)**, 2020腾讯应用开发赛 **华南赛区三等奖** 等
 - **外语能力**: CET-6, 阅读英文文档无障碍, 熟练撰写英文论文
 
 ## 项目经历
 
-### 基于异构超算的多元任务运行时系统(国家重点研发计划高性能计算专项)<span class="role">:&nbsp;项目开发负责人</span><span class="right">2023.10 - 今</span>
+### 基于Kubernetes的容器化AI云平台-DeepAI<span class="role">:&nbsp;后端开发&nbsp;<a href="https://xlcbingo1999.github.io/assets/pdf/DeepAI.pdf">架构链接</a></span><span class="right">2021.11 - 今</span>
 
-- **项目简介**: 基于异构国产超算硬件的支持多元任务的并行运行时框架. 框架将并行程序划分为一张Task的依赖图, 通过分析程序的任务流将Task调度到系统的计算设备上; 通过分析程序的数据权限和数据一致性属性将数据调度到系统的存储设备上 **[技术栈: C/C++, Python, CMake, 超算体系结构]**
-- **承担工作**: 前期调研和原型设计; 将已有的任务级调度框架<a href="https://xlcbingo1999.github.io/assets/pdf/Legion_Stack_Intro.pdf">Legion</a>迁移部署到不同体系结构超算上; 分析上层多元任务的特征并设计对应的并行方案
-- **阶段成果**: 完成系统设计; 完成Legion软件栈体系向<a href="https://www.nsccwx.cn/">神威太湖之光(自研体系结构)</a>和<a href="https://www.nscc-tj.cn/">天河三号(ARM)</a>的迁移 
+- **项目简介**: 一站式AI任务平台, 用户可以利用平台提供的环境进行AI任务代码在线开发; 平台负责调度任务并分配训练资源, 并支持将训练模型部署为推理服务; 平台依据整体资源水位实现集群资源的弹性动态调整; 平台支持根据训练任务的价值和数据的隐私预算主动获取数据 **[技术栈: Golang, Python, Pytorch, Kubernetes]**
+- **承担工作**: 基于Kubeflow的分布式训练环境实现; 基于Kubernetes和近似算法优化计算资源调度策略设计与实现; 基于差分隐私机制和在线算法优化隐私数据分配策略设计与实现
+- **阶段成果**: 项目已经为相关企业提供服务, 持续孵化科研论文, 未来仍会持续集成新的功能
 
 ---
 
-### 基于Kubernetes的容器化AI云平台-DeepAI<span class="role">:&nbsp;后端开发&nbsp;<a href="https://xlcbingo1999.github.io/assets/pdf/DeepAI.pdf">架构链接</a></span><span class="right">2021.11 - 今</span>
+### 基于异构超算的多元任务运行时系统(国家重点研发计划高性能计算专项)<span class="role">:&nbsp;项目开发</span><span class="right">2023.10 - 今</span>
 
-- **项目简介**: 一站式AI任务平台, 用户可以利用平台提供的环境进行AI任务代码在线开发; 平台负责调度任务并分配训练资源, 并支持将训练模型部署为推理服务; 平台支持根据整体资源情况贪心伸缩集群的可用资源；平台支持根据训练任务的价值和数据的隐私预算主动获取数据 **[技术栈: Golang, Python, Pytorch, Kubernetes]**
-- **承担工作**: 基于Kubeflow的分布式训练环境实现; 基于Kubernetes和近似算法优化计算资源调度策略设计与实现; 基于差分隐私机制和在线算法优化隐私数据分配策略设计与实现
-- **阶段成果**: 项目已经为相关企业提供服务, 持续孵化科研论文, 未来仍会持续集成新的功能
+- **项目背景**: 基于异构国产超算硬件, 实现一套支持多元任务调度的任务级并行运行时框架. 
+- **项目功能**: 设计了支持管理数据权限和一致性的逻辑数据区域; 支持基于逻辑数据区域属性分析的任务依赖调度; 支持异构计算和存储资源的屏蔽; 支持用户自定义调度. **[技术栈: C/C++, Python, CMake, 超算体系结构]**
+- **承担工作**: 前期调研和原型设计; 将已有的任务级调度框架<a href="https://xlcbingo1999.github.io/assets/pdf/Legion_Stack_Intro.pdf">Legion</a>迁移部署到不同体系结构超算上; 分析上层多元任务的特征并设计对应的并行方案
+- **阶段成果**: 完成系统设计; 完成Legion软件栈体系向<a href="https://www.nsccwx.cn/">神威太湖之光(自研体系结构)</a>和<a href="https://www.nscc-tj.cn/">天河三号(ARM)</a>的迁移 
+
 
 
 ## 研究经历<span class="role">&nbsp; 方向: 资源调度, 云计算, 隐私计算等&nbsp; <a href="https://xlcbingo1999.github.io/assets/pdf/Paper_System_Overview.pdf">概况链接</a></span>
@@ -65,5 +67,5 @@
 ### 字节跳动 互娱研发-影像团队-轻颜相机<span class="role">:&nbsp;客户端开发工程师</span><span class="right">2021.05 - 2021.11</span><br>
 
 - **技术栈**: Swift, Objective-C
-- **承担工作**: 搭建与维护移动端应用图片视频存储平台, 参与搭建<a href="https://m.ulikecam.com/">轻颜相机</a>"拍摄-存草稿-修图-分享-回流"的社交链路全流程; 参与轻颜相机风格开放平台的开发和优化, 优化特效渲染逻辑, 优化资源的本地存储
-- **商业成果**: 协助推动轻颜在抖音上投稿影响力提升约10\%, 覆盖约50万用户, 核心数据平稳, 无事故发生
+- **承担工作**: 搭建与维护<a href="https://m.ulikecam.com/">轻颜相机</a>内置的多媒体相册SDK(支持多媒体文件增删, 修改, 预览)和上层UI逻辑; 参与搭建"拍摄-存草稿-修图-分享-回流"的社交链路全流程UI逻辑
+- **商业成果**: 需求均按时上线, 协助推动轻颜在抖音上投稿影响力提升约10\%, 核心数据平稳, 无事故发生
