@@ -15,8 +15,8 @@
 </h1>
 
 ## 教育经历
-### 硕士 中山大学 计算机学院(软件学院) 计算机技术<span class="role">&nbsp;</span><span class="right">2022.09 - 2025.06</span>
-### 本科 中山大学 计算机学院(软件学院) 软件工程<span class="role">&nbsp;</span><span class="right">2018.09 - 2022.06</span>
+### 硕士 中山大学(985, 211, 双一流, 广州) 计算机学院(软件学院) 计算机技术<span class="role">&nbsp;</span><span class="right">2022.09 - 2025.06</span>
+### 本科 中山大学(985, 211, 双一流, 广州) 计算机学院(软件学院) 软件工程<span class="role">&nbsp;</span><span class="right">2018.09 - 2022.06</span>
 
 
 ## 专业技能
