@@ -21,16 +21,15 @@
 
 ## 专业技能
 
-<!-- - **业务意向**: 对**华为计算产品线**感兴趣, 对**MindX DL**业务感兴趣, 本人拥有相似系统的开发经验。 -->
 - **编程语言**: 熟悉**Golang**, C/C++, Python, Swift/Objective-C。
-- **开发工具**: 熟悉**Kubernetes, Docker**等相关基础; 熟悉Linux的使用和维护; 熟悉操作系统, 计算机网络等基础。
-<!-- - **荣誉**: 2021年数学建模美赛 **一等奖Meritorious(约前10\%)**, 中山大学研究生/本科生学业奖学金一等奖。 -->
-<!-- - **学生经历**: 中山大学计算机学院**学生会学术宣传部部长**, **班级团支书**等。 -->
+- **开发工具**: 熟悉**Kubernetes, Docker**等相关基础; 熟悉Linux的使用和维护; 熟悉Git等工具; 熟悉操作系统, 计算机网络等基础。
+- **荣誉**: 2021年数学建模美赛 **一等奖Meritorious(约前10\%)**, 中山大学研究生/本科生学业奖学金一等奖。
+- **学生经历**: 中山大学计算机学院**学生会学术宣传部部长**, **班级团支书**等。
 <!-- - **外语能力**: CET-6, 阅读英文文档无障碍, 熟练撰写英文论文 -->
 
 ## 实习经历
 
-### 阿里巴巴 AI-Infra团队<span class="role">:&nbsp;基础平台开发</span><span class="right">2024.06 - 2024.09</span>
+### 阿里巴巴 AI-Infra团队<span class="role">:&nbsp;基础平台开发</span><span class="right">2024.06 - 2024.09 </span>
 
 - **技术栈**: Golang, Kubernetes
 - **承担工作**: 参与 CNCF sandbox project <a href="https://github.com/kubedl-io/kubedl">KubeDL</a> 开发。 
@@ -49,19 +48,14 @@
 
 ## 项目和科研经历<span class="role">&nbsp; 方向: 资源调度, 云计算, 隐私计算等&nbsp;</span>
 
-### 基于Kubernetes的容器化隐私AI云平台-DeepAI<span class="role">:&nbsp;基础平台开发&nbsp;</span><span class="right">2021.11 - 2022.06</span>
+### 基于Kubernetes的容器化隐私AI云平台-DeepAI<span class="role">:&nbsp;基础平台开发&nbsp;</span><span class="right">2021.11 - 2022.06 </span>
 
 - **技术栈**: Golang, Kubernetes
 - **项目简介**: 一站式AI任务平台, 用户可以利用平台提供的环境进行AI任务代码在线开发; 平台负责调度任务并分配训练资源, 并支持将训练模型部署为推理服务; 平台支持根据训练任务的价值和数据的隐私预算主动获取数据; 平台依据整体资源水位实现集群资源的弹性动态调整。
 - **承担工作**: 系统后端实现和维护; 基于近似算法优化计算资源调度策略设计与实现; 基于在线算法优化隐私数据分配策略设计与实现。
-- **计算资源调度算法**:
-  - **优先级排序**: 设计任务优先级, 对时间片内任务进行优先级排序。
-  - **画像构建**: 通过构建任务在特定GPU上的画像(时延等), 利用预置策略获取任务在所有GPU类型上的画像。
-  - **调度优化**: 每次任务决策时建立优化问题, 目标将任务调度到集群中最小化执行成本(时延\*价格)的服务器上。
-  - **弹性伸缩**: 当服务器空闲一段时间后, 将动态伸缩租用以降低成本。
 - **成果**: 计算资源调度算法减小平均约45.1\%的集群部署成本, 考虑隐私预算后的训练模型精度上带来了32.8\%的提升, 并持续孵化科研论文:
-  - <a href="https://ieeexplore.ieee.org/document/10684383">CRS: A Cost-Aware Resource Scheduling Framework for Deep Learning Task Orchestration in Mobile Clouds</a>, 以**第一作者**身份投稿, 被CCF'A期刊TMC接收
-  - <a href="https://ieeexplore.ieee.org/abstract/document/10654304">History-Aware Privacy Budget Allocation for Model Training on Evolving Data-Sharing Platforms</a>, 以**第一作者**身份投稿, 被CCF'A期刊TSC接收
+  - CRS: Cost-Aware Resource Scheduling for Deep Learning Jobs in the Elastic Cloud, 以**第一作者**身份投稿, 被CCF'A期刊TMC接收
+  - Online Privacy Budget Allocation over Growing Datablocks for Model Training, 以**第一作者**身份投稿, 被CCF'A期刊TSC接收
 
 ---
 
@@ -69,6 +63,6 @@
 
 - **技术栈**: C++, CMake, 超算体系结构
 - **项目背景**: 为解决应用多元化与超算环境异构化所带来的并行编程开发困难和运行效率不足的问题, 设计实现一套支持AI等任务和不同超算体系结构的任务级运行时系统。
-- **项目目标**: 设计通用的逻辑数据抽象与泛化的任务接口, 支持用户编写**屏蔽底层计算资源**的并行应用, 提供**自定义任务调度接口**以满足不同多元任务的性能需求。
+- **项目目标**: 设计通用的逻辑数据抽象与泛化的任务接口, 支持用户编写**屏蔽底层计算与存储资源**的并行应用, 提供**自定义任务调度接口**以满足不同多元任务的性能需求。
 - **承担工作**: 前期调研和原型设计; 将已有的任务级调度框架<a href="https://xlcbingo1999.github.io/assets/pdf/Legion_Stack_Intro.pdf">Legion</a>迁移部署到不同体系结构超算上; 设计特定并行模式的编程接口。
 - **阶段成果**: 完成系统设计; 完成Legion软件栈体系向<a href="https://www.nsccwx.cn/">神威太湖之光(自研体系结构)</a>和<a href="https://www.nscc-tj.cn/">天河三号(ARM)</a>的迁移。
